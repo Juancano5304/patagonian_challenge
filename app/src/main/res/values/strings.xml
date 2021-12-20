@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Patagonian Challenge</string>
+    <string name="see_session_count">SEE SESSION COUNT</string>
+    <string name="sessions_counter">Sessions Counter</string>
+    <string name="sessions_counter_message">Here is the times you had been accessed to Patagonian Challenge application : %1$d</string>
+    <string name="ok">Ok</string>
+    <string name="stopped_service">Stopped service</string>
+    <string name="registered_broadcast">Registered broadcast</string>
+    <string name="started_service">Started service</string>
+    <string name="countdown_finished">Countdown finished</string>
+    <string name="countdown">countdown</string>
+</resources>
