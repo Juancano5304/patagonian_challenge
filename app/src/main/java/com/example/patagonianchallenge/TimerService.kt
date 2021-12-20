@@ -5,7 +5,6 @@ import android.content.Intent
 import android.os.CountDownTimer
 import android.os.IBinder
 import android.util.Log
-import java.util.*
 
 class TimerService : Service() {
 
@@ -33,7 +32,7 @@ class TimerService : Service() {
         const val COUNTDOWN_REF = "com.example.patagonianchallenge"
         const val TAG = "TimerService"
         //milliseconds * seconds * minutes
-        const val TOTAL_TIME = 1000 * 10 * 1;
+        const val TOTAL_TIME = 1000 * 60 * 10;
     }
 
     override fun onBind(intent: Intent?): IBinder? {
